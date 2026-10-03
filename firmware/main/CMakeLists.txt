@@ -7,6 +7,7 @@ idf_component_register(
         "include"
     REQUIRES
         freertos
+        driver
         esp_wifi 
         esp_event 
         nvs_flash 
